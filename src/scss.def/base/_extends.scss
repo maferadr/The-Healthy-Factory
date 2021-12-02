@@ -1,0 +1,17 @@
+%botones {
+    border: 1px solid rgb(19, 1, 19);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+%iconos {
+    justify-content: space-between;
+    padding-right: 1px;
+    color: black;
+    width: 3px;
+    height: 4px;    
+}
+
+#icons{
+    @extend %iconos;
+}

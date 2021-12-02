@@ -1,0 +1,27 @@
+@import './mixins';
+@import './variables';
+
+
+@mixin condicion($screen){
+    @if $screen == 480px {
+        nav{
+            @include mobile(flex, absolute, auto, 100%, column);
+        }    }
+    @else if $screen == 481px{
+        nav{
+            @include tablet(flex, absolute, 100%, 12px, row);
+        }    }
+    @else $screen === 960px{
+        nav{
+            ul{
+                @include desktop(flex, absolute, space-between, center, row);
+                li{
+                    a{
+                        display: inline-flex;
+                        z-index: 1;
+                    }
+                }
+            }
+        }
+    }
+}

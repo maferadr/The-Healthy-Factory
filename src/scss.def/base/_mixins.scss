@@ -1,0 +1,43 @@
+@mixin mobile ($display, $position, $width, $height, $flex-direction){
+    display: $display;
+    position: $position;
+    width: $width;
+    height: $height;
+    flex-direction: $flex-direction;
+}
+
+nav{
+    @include mobile(flex, absolute, auto, 100%, column)
+}
+
+@mixin tablet($display, $position, $width, $height, $flex-direction){
+    display: $display;
+    position: $position;
+    width: $width;
+    height: $height;
+    flex-direction: $flex-direction;
+}
+
+nav{
+    @include tablet(flex, absolute, 100%, 12px, row)
+}
+
+@mixin desktop($display, $position, $sentido, $centrado, $flex-direction){
+    display: $display;
+    position: $position;
+    justify-content: $sentido;
+    align-items: $centrado;
+    flex-direction: $flex-direction;
+}
+
+nav{
+    ul{
+        @include desktop(flex, absolute, space-between, center, row);
+        li{
+            a{
+                display: inline-flex;
+                z-index: 1;
+            }
+        }
+    }
+}

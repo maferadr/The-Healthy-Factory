@@ -1,0 +1,25 @@
+@import '../base/variables';
+@import '../base/colores';
+
+button{
+    display: flex;
+    justify-content: center;
+    height: 3px;
+    width: 10px;
+    border-color: black;
+    border-radius: 4px;
+    margin-left: 35rem;
+    #signIn{
+        background-color: $negro;
+            //Aca busco darle un color al boton en si que seria negro y la letra en blanco, pero ambos estan dentro del mismo id, que propiedad deberia usar?/
+
+    }
+    #shop{
+        color: $blanco;
+    }
+}
+
+
+
+
+

@@ -162,7 +162,7 @@ img #menuCarousel{
     text-align: center;
     margin: 0 auto;
     justify-content: center;
-    margin-left: 18rem;
+    padding-left: 18rem;
     width: 50%;
 }
 

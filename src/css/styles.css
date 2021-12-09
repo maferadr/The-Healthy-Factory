@@ -335,7 +335,8 @@ div ul li{
 }
    header{
        width: 100px; 
-       }
+      
+    }
     nav ul li a{
         display: block;
         padding: 12px;
@@ -346,9 +347,8 @@ div ul li{
         font-weight: lighter;
     }
 }
-/* AL aplicar la medida query con el menu en manera vertical para dispositivos mobiles me refleja bien en el home pero el menu no se apertura igual en las demas secciones de mi pagina:( */
-/* El video del Home tampoco se exactamente que propiedades podria darle para que me figure de manera vertical y sea responsive:(. No se si sugeririas en dado caso que le inserte otro video */
-@media screen and (min-width:481px) and (max-width: 960px){
+
+@media screen and (min-width:481px) and (max-width: 960px) and (orientation:vertical){
     header{
         width: 200px;
     }
@@ -356,6 +356,19 @@ div ul li{
     nav ul li a{
         display: flex;
     }
+
+    .videoCover{
+        z-index: -1000;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    #title #title2 #title3{
+        text-align: center;
+        font-size: 50px;
+    }
+
 }
  
 .imgPersonaliza{

@@ -2,6 +2,8 @@
 @import './variables';
 
 
+//Condiciones para el diseno responsive
+    
 @mixin condicion($screen){
     @if $screen == 480px {
         nav{
@@ -11,7 +13,7 @@
         nav{
             @include tablet(flex, absolute, 100%, 12px, row);
         }    }
-    @else $screen === 960px{
+    @else $screen == 960px{
         nav{
             ul{
                 @include desktop(flex, absolute, space-between, center, row);

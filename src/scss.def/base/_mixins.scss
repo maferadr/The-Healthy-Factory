@@ -6,6 +6,8 @@
     flex-direction: $flex-direction;
 }
 
+//Diseno responsive para mobile
+
 nav{
     @include mobile(flex, absolute, auto, 100%, column)
 }
@@ -17,7 +19,7 @@ nav{
     height: $height;
     flex-direction: $flex-direction;
 }
-
+//Diseno responsive para tablet
 nav{
     @include tablet(flex, absolute, 100%, 12px, row)
 }
@@ -29,7 +31,7 @@ nav{
     align-items: $centrado;
     flex-direction: $flex-direction;
 }
-
+//Diseno responsive para desktop
 nav{
     ul{
         @include desktop(flex, absolute, space-between, center, row);

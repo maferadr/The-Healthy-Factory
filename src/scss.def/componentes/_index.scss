@@ -2,6 +2,7 @@
 @import '../base/colores';
 @import '../base/extends';
 
+//Variables de barra de nav
 nav .navbar{
     @extend %botones;
     ul{

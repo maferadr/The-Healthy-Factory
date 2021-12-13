@@ -129,18 +129,6 @@ img{
     height: 200px;
 }
 
-img #menuCarousel{
-    position: absolute;
-    opacity: 100%;
-    height: 500px;
-    width: 70%;
-    justify-content: center;
-}
-
-.carousel-inner{
-    height: 200px;
-}
-
 .carousel-item{
     position: relative;
   display: none;
@@ -190,22 +178,35 @@ img #menuCarousel{
     justify-content: center;
 }
 
+.textMenu{
+    color: black;
+    font-family: 'Leckerli One';
+    font-size: 30px;
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+}
+
 #Carousel2{
     padding-top: 700px;
     position: absolute;
+}
+
+#carouselExampleIndicators{
+    height: 30rem;
 }
 
 .bannerMenu{
     display: block;
     text-align: center;
     justify-content: center;
-    background-color: rgb(36, 5, 36);
+    background-color: rgb(255, 255, 255);
     padding: 4px;
+    border-bottom: 1px solid rgb(24, 5, 24);
 }
 
 .letraBanner{
     padding-top: 8px;
-    color: white;
+    color: rgb(100, 9, 9);
     font-size: 18px;
     animation: heartBeat 3s;
 }
@@ -267,7 +268,7 @@ h3, h5{
 .titleMenu{
     justify-content: center;
     margin-top: 3px;
-    margin-left: 2rem;
+    margin-left: 38rem;
 }
 
 #LifeHacks{

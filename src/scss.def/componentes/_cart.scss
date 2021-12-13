@@ -1,6 +1,7 @@
 @import '../base/variables';
 @import '../base/colores';
 
+//Propiedades a los botones del carrito de compras
 button{
     display: flex;
     justify-content: center;
@@ -11,7 +12,6 @@ button{
     margin-left: 35rem;
     #signIn{
         background-color: $negro;
-            //Aca busco darle un color al boton en si que seria negro y la letra en blanco, pero ambos estan dentro del mismo id, que propiedad deberia usar?/
 
     }
     #shop{

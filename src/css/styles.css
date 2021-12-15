@@ -277,6 +277,7 @@ h3, h5{
 
 .LifeHacks{
     animation: backInLeft 3s;
+    margin-left: 4px;
 }
 
 @keyframes backInLeft{
@@ -291,9 +292,15 @@ h3, h5{
 .Experiencia{
     animation: backInUp 2s;
 }
+
+.titleListaCompra{
+    margin-left: 3px;
+}
 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .beneficios{
@@ -381,6 +388,8 @@ div ul li{
 .perso{
     animation: tada 3s;
 }
+
+
 
 #cartSubtitle{
     font-family: 'Lateef', cursive;
